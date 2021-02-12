@@ -21,4 +21,5 @@ Do uruchomienia będzie potrzebna biblioteka json-simple dzięki której odbywa 
 
 ## Technologie
 Java 8
+
 Java FX (do graficznej reprezentacji projektu)
