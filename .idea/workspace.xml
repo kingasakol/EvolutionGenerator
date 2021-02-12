@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98ef5b27-689e-4ed9-819b-c01e899e99ae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oOCGADWsiZ7zElbI0nTjEOViAq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kinga\Desktop\Projekt\EvolutionGenerator\src\main" />
+      <recent name="C:\Users\kinga\Desktop\Projekt\EvolutionGenerator\src\files" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agh.cs.project1.World" />
+      <module name="EvolutionGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.World" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98ef5b27-689e-4ed9-819b-c01e899e99ae" name="Default Changelist" comment="" />
+      <created>1613148152176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613148152176</updated>
+      <workItem from="1613148154602" duration="108000" />
+      <workItem from="1613148523365" duration="26000" />
+      <workItem from="1613148639600" duration="33000" />
+      <workItem from="1613148696219" duration="2349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2155" y="-19" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1613150340752">
+      <screen x="1366" y="-137" width="1920" height="1040" />
+    </state>
+    <state x="2155" y="-19" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728/1366.-137.1920.1040@1366.-137.1920.1040" timestamp="1613150340752" />
+    <state x="2055" y="136" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1613149765643">
+      <screen x="1366" y="-137" width="1920" height="1040" />
+    </state>
+    <state x="2055" y="136" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728/1366.-137.1920.1040@1366.-137.1920.1040" timestamp="1613149765643" />
+    <state x="2031" y="123" key="FileChooserDialogImpl" timestamp="1613150866817">
+      <screen x="1366" y="-137" width="1920" height="1040" />
+    </state>
+    <state x="2031" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.-137.1920.1040@1366.-137.1920.1040" timestamp="1613150866817" />
+    <state x="1805" y="-44" key="SettingsEditor" timestamp="1613150871913">
+      <screen x="1366" y="-137" width="1920" height="1040" />
+    </state>
+    <state x="1805" y="-44" key="SettingsEditor/0.0.1366.728/1366.-137.1920.1040@1366.-137.1920.1040" timestamp="1613150871913" />
+    <state x="2034" y="270" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1613150742462">
+      <screen x="1366" y="-137" width="1920" height="1040" />
+    </state>
+    <state x="2034" y="270" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728/1366.-137.1920.1040@1366.-137.1920.1040" timestamp="1613150742462" />
+  </component>
+</project>

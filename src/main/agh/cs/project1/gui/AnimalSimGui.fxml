@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="637.0" prefWidth="1353.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.cs.project1.gui.AnimalSimController">
+   <children>
+      <BorderPane fx:id="borderPane" layoutX="32.0" layoutY="57.0" prefHeight="440.0" prefWidth="1020.0">
+         <left>
+            <Pane prefHeight="413.0" prefWidth="201.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="-18.0" layoutY="36.0" text="Liczba kepek trawy" />
+                  <TextField fx:id="numberGrassesText" editable="false" layoutX="-18.0" layoutY="53.0" prefHeight="25.0" prefWidth="75.0" />
+                  <Label layoutX="-18.0" layoutY="78.0" text="Dominujący genotyp:" />
+                  <TextArea fx:id="dominateGenesTextArea" layoutX="-18.0" layoutY="95.0" prefHeight="48.0" prefWidth="138.0" />
+                  <Label layoutX="-13.0" layoutY="143.0" prefHeight="25.0" prefWidth="216.0" text="Średni poziom energii" />
+                  <TextField fx:id="averageEnergyText" editable="false" layoutX="-18.0" layoutY="168.0" prefHeight="25.0" prefWidth="75.0" />
+                  <Label layoutX="-13.0" layoutY="193.0" prefHeight="25.0" prefWidth="216.0" text="Średnia dł. życia dla martwych zwierząt" />
+                  <Label layoutX="-13.0" layoutY="241.0" prefHeight="25.0" prefWidth="216.0" text="Średnia liczba dzieci żywych zwierząt" />
+                  <TextField fx:id="averageChildText" editable="false" layoutX="-18.0" layoutY="266.0" prefHeight="25.0" prefWidth="75.0" />
+                  <TextField fx:id="averageLiveText" editable="false" layoutX="-18.0" layoutY="218.0" prefHeight="25.0" prefWidth="75.0" />
+                  <Label layoutX="-14.0" layoutY="299.0" text="WYBRANE ZWIERZĄTKO" />
+                  <TextArea fx:id="dominateGenesForChoosedText" editable="false" layoutX="-18.0" layoutY="316.0" prefHeight="48.0" prefWidth="138.0" />
+                  <Label layoutX="-17.0" layoutY="364.0" text="Liczba epok" />
+                  <Label layoutX="-14.0" layoutY="455.0" text="Liczba potomkow po n-epokach" />
+                  <TextField fx:id="dayText" layoutX="-18.0" layoutY="381.0" onAction="#getDaysHandlerOne" prefHeight="25.0" prefWidth="75.0" />
+                  <TextField fx:id="numberOfDescendantsText" editable="false" layoutX="-19.0" layoutY="471.0" prefHeight="25.0" prefWidth="80.0" />
+                  <Label layoutX="-9.0" layoutY="406.0" text="Liczba dzieci po n-epokach" />
+                  <TextField fx:id="numberOfChildrenForChoosen" editable="false" layoutX="-13.0" layoutY="428.0" prefHeight="25.0" prefWidth="68.0" />
+               </children></Pane>
+         </left>
+         <right>
+            <Pane fx:id="world1" prefHeight="569.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin></Pane>
+         </right>
+         <center>
+            <Pane fx:id="world" prefHeight="440.0" prefWidth="440.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <Button fx:id="startButton" layoutX="253.0" layoutY="12.0" mnemonicParsing="false" onAction="#handlerStartOne" text="Start" visible="false" />
+      <Button fx:id="pauseButton" layoutX="435.0" layoutY="12.0" mnemonicParsing="false" onAction="#handlerStopOne" text="Pause" visible="false" />
+      <Button fx:id="startButton1" layoutX="811.0" layoutY="12.0" mnemonicParsing="false" onAction="#handlerStartTwo" text="Start" visible="false" />
+      <Button fx:id="pauseButton1" layoutX="937.0" layoutY="12.0" mnemonicParsing="false" onAction="#handlerStopTwo" text="Pause" visible="false" />
+      <Label layoutX="17.0" layoutY="26.0" text="PANEL 1" />
+      <Label layoutX="14.0" layoutY="49.0" text="Liczba zwierząt" />
+      <TextField fx:id="numberAnimalText" editable="false" layoutX="17.0" layoutY="66.0" prefHeight="25.0" prefWidth="75.0" />
+      <CheckBox fx:id="colorDominateGenes" layoutX="18.0" layoutY="600.0" mnemonicParsing="false" onAction="#handlerCheckBoxOne" text="Zaznacz dominujący genotyp" />
+      <Label layoutX="18.0" layoutY="557.0" text="Epoka w której zmarło" />
+      <TextField fx:id="deathDayText" layoutX="18.0" layoutY="575.0" prefHeight="25.0" prefWidth="80.0" />
+      <Button fx:id="saveDataButton" layoutX="323.0" layoutY="588.0" mnemonicParsing="false" onAction="#saveDataButtonHandlerOne" text="Zapisz statystyki do pliku" />
+      <Button fx:id="saveDataButton1" layoutX="852.0" layoutY="584.0" mnemonicParsing="false" onAction="#saveDataButtonHandlerTwo" text="Zapisz statystyki do pliku" visible="false" />
+      <Pane fx:id="extraPanel" layoutX="1116.0" layoutY="-6.0" prefHeight="637.0" prefWidth="230.0">
+         <children>
+            <Label layoutX="12.0" layoutY="76.0" text="Liczba kepek trawy" />
+            <TextField fx:id="numberGrassesText1" editable="false" layoutX="19.0" layoutY="93.0" prefHeight="25.0" prefWidth="75.0" />
+            <Label layoutX="19.0" layoutY="125.0" text="Dominujący genotyp:" />
+            <TextArea fx:id="dominateGenesTextArea1" layoutX="11.0" layoutY="143.0" prefHeight="48.0" prefWidth="138.0" />
+            <Label layoutX="14.0" layoutY="191.0" prefHeight="25.0" prefWidth="216.0" text="Średni poziom energii" />
+            <TextField fx:id="averageEnergyText1" editable="false" layoutX="19.0" layoutY="216.0" prefHeight="25.0" prefWidth="75.0" />
+            <Label layoutX="14.0" layoutY="241.0" prefHeight="25.0" prefWidth="216.0" text="Średnia dł. życia dla martwych zwierząt" />
+            <Label layoutX="14.0" layoutY="293.0" prefHeight="25.0" prefWidth="216.0" text="Średnia liczba dzieci żywych zwierząt" />
+            <TextField fx:id="averageChildText1" editable="false" layoutX="19.0" layoutY="318.0" prefHeight="25.0" prefWidth="75.0" />
+            <TextField fx:id="averageLiveText1" editable="false" layoutX="19.0" layoutY="268.0" prefHeight="25.0" prefWidth="75.0" />
+            <Label layoutX="14.0" layoutY="361.0" text="WYBRANE ZWIERZĄTKO" />
+            <TextArea fx:id="dominateGenesForChoosedText1" editable="false" layoutX="11.0" layoutY="378.0" prefHeight="48.0" prefWidth="138.0" />
+            <Label layoutX="18.0" layoutY="468.0" text="Liczba dzieci po n-epokach" />
+            <TextField fx:id="dayText1" layoutX="22.0" layoutY="443.0" onAction="#getDaysHandlerTwo" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="13.0" layoutY="426.0" text="Liczba epok" />
+            <Label layoutX="17.0" layoutY="512.0" text="Liczba potomkow po n-epokach" />
+            <TextField fx:id="numberOfChildrenForChoosen1" editable="false" layoutX="19.0" layoutY="485.0" prefHeight="25.0" prefWidth="75.0" />
+            <TextField fx:id="numberOfDescendantsText1" editable="false" layoutX="16.0" layoutY="529.0" prefHeight="25.0" prefWidth="80.0" />
+            <CheckBox fx:id="colorDominateGenes1" layoutX="25.0" layoutY="606.0" mnemonicParsing="false" onAction="#handlerCheckBoxTwo" text="Zaznacz dominujący genotyp" />
+            <Label layoutX="100.0" layoutY="17.0" text="PANEL 2" />
+            <Label layoutX="17.0" layoutY="34.0" text="Liczba zwierząt" />
+            <TextField fx:id="numberAnimalText1" editable="false" layoutX="19.0" layoutY="51.0" prefHeight="25.0" prefWidth="75.0" />
+            <Label layoutX="15.0" layoutY="554.0" text="Epoka, w której zmarło" />
+            <TextField fx:id="deathDayText1" editable="false" layoutX="16.0" layoutY="571.0" prefHeight="25.0" prefWidth="80.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
