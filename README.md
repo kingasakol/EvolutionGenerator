@@ -15,3 +15,10 @@ W przypadku braku zwierząt na mapie symulacja automatycznie się zastopuje.
 
 Bardziej szczegółowy opis projektu znajduje się na stronie:
 https://github.com/apohllo/obiektowe-lab/tree/master/proj1
+
+## Uruchomienie
+Do uruchomienia będzie potrzebna biblioteka json-simple dzięki której odbywa się obsługa pliku startData.json, w którym znajdują się dane wejściowe do symulacji.
+
+##Technologie
+Java 8
+Java FX (do graficznej reprezentacji projektu)
