@@ -12,3 +12,6 @@ Istnieje również możliwość zapisania danych statystycznych (średnia liczba
 Jednocześnie możemy podglądać dwie symulacje działające ze sobą niezależnie.
 
 W przypadku braku zwierząt na mapie symulacja automatycznie się zastopuje.
+
+Bardziej szczegółowy opis projektu znajduje się na stronie:
+https://github.com/apohllo/obiektowe-lab/tree/master/proj1
