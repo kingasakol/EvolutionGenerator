@@ -125,6 +125,13 @@ public class WorldPane {
         this.saveDataButton.setVisible(true);
     }
 
+    public void setVisible(boolean visible){
+        this.startButton.setVisible(visible);
+        this.pauseButton.setVisible(visible);
+        this.saveDataButton.setVisible(visible);
+        world.setVisible(visible);
+    }
+
     public int getMapRatio(){
         return this.mapRatio;
     }

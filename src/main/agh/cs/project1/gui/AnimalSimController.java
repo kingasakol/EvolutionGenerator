@@ -123,17 +123,20 @@ public class AnimalSimController  {
     @FXML
     Pane extraPanel;
 
+    @FXML
+    CheckBox twoSimulationCheckBox;
+
 
     private final int PANE_SIZE = 420;
 
-    public boolean twoSimulation = true;
+    public boolean twoSimulation = false;
 
     private int posX;
     private int posY;
     private boolean checkedCheckBox = false;
     private boolean checkedCheckBox1 = false;
 
-    Simulation sim = new Simulation();;
+    Simulation sim = new Simulation();
     Simulation sim1;
 
     private Movement clock;
@@ -197,7 +200,11 @@ public class AnimalSimController  {
 
             this.clock1 = new Movement(worldPane1, sim1, 1);
             extraPanel.setVisible(true);
+            worldPane1.setVisible(twoSimulation);
         } else {
+            if(worldPane1 != null){
+                worldPane1.setVisible(twoSimulation);
+            }
             extraPanel.setVisible(false);
         }
     }
@@ -414,5 +421,11 @@ public class AnimalSimController  {
         } else {
             throw new IllegalArgumentException("Liczba epok do obserwacji musi być większa od 0");
         }
+    }
+
+    @FXML
+    public void changeNumberOfSimulation(){
+        twoSimulation = !twoSimulation;
+        initialize();
     }
 }
